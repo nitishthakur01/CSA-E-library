@@ -1,6 +1,6 @@
 import React from "react";
 import '../App'
-import display from '../img/au1.png'
+import display from '../img/arnilogo.gif'
 
 export default function Slider ()
 {

@@ -6,6 +6,7 @@ import img3 from '../img/book3.jpg';
 
 export default function Book ()
 {
+ 
         return(
                 <>
                   <div className="book-1">
@@ -13,7 +14,7 @@ export default function Book ()
 
                   </div>
                   <div className="head">
-                 <center> <h1> Computer Science & Application E-Books</h1></center>
+                 <center> <h1> Computer Science & Application Trending Books</h1></center>
                   </div>
                   </div>
                   <div><br/>
@@ -22,12 +23,15 @@ export default function Book ()
                   <div>
 {/* search bar */}
 <form>
-  <h2>Some Trending Books </h2><input type="text" name="search" placeholder="Search.."/>
+  <h2>Some Trending Books </h2>
+  <input type="text"placeholder="Search.." title="Type in a category"/>
 </form>
 {/* end search */}
- <div className="card-container">
 
-       
+
+
+ <div className="card-container">
+    
  <div class="left-card">
  <div class="card">
 <img className="card-img" src={img} alt="Denim Jeans"/>
@@ -62,7 +66,6 @@ export default function Book ()
 {/* start */}
 <div>
 <h1>CSA E-library</h1>
-<h3></h3>
 </div>
 
 <div>
@@ -82,19 +85,20 @@ export default function Book ()
 </div>
 
 <div class="right-01">
-<h2>What?</h2>
-<p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
-<h2>Where?</h2>
-<p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
-<h2>Price?</h2>
-<p>The Walk is free!</p>
+<h2>Search</h2>
+<p>Search any knid of CSA book present in your Syllabus</p>
+<h2>Check</h2>
+<p>Check the options and select the one book you want to Download</p>
+<h2>Download</h2>
+<p>Download a E-Book just on Single Click....!</p>
 </div>
 </div>
 {/* end */}
-                </div><br/> 
 
+                </div><br/> 
 
                   </div>
                 </>
         );
+        
 }
